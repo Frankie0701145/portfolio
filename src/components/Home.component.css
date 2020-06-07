@@ -1,23 +1,76 @@
-@import "../../node_modules/materialize-social/materialize-social.css";
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 #homeWrapper {
-    height: 100vh;
+    padding: 0px !important;
+    margin: 0px !important;
+    box-sizing: border-box !important;
 }
 
-
-#sideContent {
-    height: 100%;
+#sideNav {
+    margin-left: 0px !important;
+    padding: 0px !important;
+    color: white;
+    font-weight: 180;
 }
 
-#profilePic {
-    max-width: 160px;
-    min-width: 80px;
+#profilePic{
+    max-width: 150px;
+}
+
+.section {
+    padding: 10px;  
 }
 
 .info {
-    border: solid white 0.5px
+    border: 1px solid white;
+}
+
+a {
+    color: white;
+    opacity: 0.6;
+}
+
+a:hover {
+    opacity: 1;
+    font-weight: 300;
+}
+
+.divider {
+    margin-bottom: 15px;
+    
+}
+
+.icons {
+    opacity: 0.6;
+}
+
+.icons:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.active{
+    border-top: 10px transparent solid;
+    border-right: 10px white solid;
+    border-bottom: 10px transparent solid;
+}
+
+.active a {
+    opacity: 1;
+    font-weight: 300;
+}
+
+
+#name {
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 992px){
+    #sideNav {
+        height: 100vh;
+    }
+    
+    #mainNav {
+        height: 100vh;
+    }
 }
