@@ -16,11 +16,11 @@ class Home extends Component {
                 <div id="homeWrapper"  className="row">
 
                     {/* Side Nav */}
-                    <div className="col s12 m12 l2 red darken-3" id="sideNav">
+                    <div className="col s12 m12 l2 red accent-4" id="sideNav">
 
                         {/* Profile */}
                         <div className="section center-align">
-                            <img src="images/profile.jpg" id="profilePic"  className="circle responsive-img"></img>
+                            <img src="images/profile.jpg" id="profilePic" alt="Francis"  className="circle responsive-img"></img>
                             <h5 id="name">Francis Njuguna</h5>
                             <blockquote className="left-align">
                                 Hi, my name is Francis Njuguna and I'm a full stack Software Developer. Welcome to my website!
