@@ -1,0 +1,23 @@
+@import "../../node_modules/materialize-social/materialize-social.css";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#homeWrapper {
+    height: 100vh;
+}
+
+
+#sideContent {
+    height: 100%;
+}
+
+#profilePic {
+    max-width: 160px;
+    min-width: 80px;
+}
+
+.info {
+    border: solid white 0.5px
+}
