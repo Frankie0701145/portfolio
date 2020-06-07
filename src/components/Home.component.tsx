@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {NavLink} from 'react-router-dom'
+import {NavLink, Redirect} from 'react-router-dom'
 import "./Home.component.css";
 import "../../node_modules/materialize-social/materialize-social.css";
 import Portfolio from './Portfolio.component';
@@ -65,6 +65,9 @@ class Home extends Component {
                     <div className="col s12 m12 l10" id="mainNav">
                         
                             <Switch>
+                                <Route exact path="/">
+                                      <Redirect to="/portfolio" />
+                                </Route>
                                 <Route exact path="/portfolio" component={Portfolio}></Route>
                                 <Route exact path="/skills" component={Skills}></Route>
                                 <Route exact path="/aboutMe" component={AboutMe}></Route>
