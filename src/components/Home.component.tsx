@@ -3,6 +3,8 @@ import "./Home.component.css";
 import "../../node_modules/materialize-social/materialize-social.css";
 
 
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 class Home extends Component {
 
     render(){
