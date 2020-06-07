@@ -1,1 +1,26 @@
+@media only screen and (min-width: 992px){
+    .heading {
+        display: inline-block;
+        border-right: .1em solid #ff8a80;
+        white-space: nowrap;    
+        margin: 0 auto;
+        letter-spacing: .04em;
+        overflow: hidden;
+        animation: 
+            typing 0.9s steps(40, end),
+            blink-caret .75s step-end infinite;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    }
+}
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ff8a80; }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}

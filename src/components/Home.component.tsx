@@ -27,7 +27,7 @@ class Home extends Component {
                             </blockquote>
                         </div>
                         
-                        <div className="section">
+                        <div className="section hide-on-med-and-down">
                             <div className="divider black"></div>
                             <div className="row">
                                 <NavLink to="/portfolio" className="col s12 links"> 
