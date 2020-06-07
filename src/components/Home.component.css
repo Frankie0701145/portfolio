@@ -25,12 +25,12 @@
     border: 1px solid white;
 }
 
-a {
+.links {
     color: white;
     opacity: 0.6;
 }
 
-a:hover {
+.links:hover {
     opacity: 1;
     font-weight: 300;
 }
@@ -53,13 +53,9 @@ a:hover {
     border-top: 10px transparent solid;
     border-right: 10px white solid;
     border-bottom: 10px transparent solid;
-}
-
-.active a {
     opacity: 1;
     font-weight: 300;
 }
-
 
 #name {
     font-weight: 400;
