@@ -4,6 +4,9 @@ import "./Portfolio.component.css";
 class Portfolio extends Component{
     render(){
         return(
+            <div>
+
+                {/* Heading */}
                 <div className="row">
                    <div className="col s12 center-align">
                        <h3 className="col offset-l5 red-text darken-3 ">
@@ -11,7 +14,24 @@ class Portfolio extends Component{
                         </h3>
                    </div> 
                 </div>
-            
+
+                {/* Content */}
+                    {/* Taftapro */}
+                <div className="container">
+                    <div className="row">
+                        {/* images */}
+                        <div className="col">
+                            images
+                        </div>
+                        {/* Description */}
+                        <div className="col">
+                            Description
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>       
         )
     }
 }

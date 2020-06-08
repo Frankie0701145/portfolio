@@ -18,7 +18,7 @@
 }
 
 .section {
-    padding: 10px;  
+    padding: 7px;  
 }
 
 .info {
@@ -41,11 +41,17 @@
 
 .icons {
     opacity: 0.6;
+    font-size: 25px;
 }
 
 .icons:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+.iconsLinks {
+    color: white;
+    padding-right: 10px;
 }
 
 .active{
