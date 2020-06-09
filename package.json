@@ -12,6 +12,7 @@
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
+    "antd": "^4.3.3",
     "materialize-css": "^1.0.0-rc.2",
     "materialize-social": "^1.0.3",
     "react": "^16.13.1",
