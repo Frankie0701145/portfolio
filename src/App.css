@@ -9,7 +9,7 @@
         animation: 
             typing 0.9s steps(40, end),
             blink-caret .75s step-end infinite;
-        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        
     }
 }
 
