@@ -3,6 +3,12 @@
     border: 5px solid black;
 }
 
+.tecIcons {
+    font-size: 30px;
+}
 
 
-  
+.externalIcons {
+    width: 30px;
+    height: 30px;
+}

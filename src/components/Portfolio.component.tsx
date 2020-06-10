@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import "./Portfolio.component.css";
+import { faHome, faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngular, faNodeJs, faPaypal,faDigitalOcean } from '@fortawesome/free-brands-svg-icons'
 
 let M = require("materialize-css");
 
@@ -20,7 +23,8 @@ class Portfolio extends Component{
 
                 <div className="container">
                     <div className="row">
-                        {/* Iterate */}
+
+                        {/* Taftapro */}
                         <div className="col s12 m6">
                             <div className="card">
                                 <div className="card-image">
@@ -30,13 +34,31 @@ class Portfolio extends Component{
                                     </a>
                                 </div>
                                 <div className="card-content">
-                                    <span className="card-title">Card Title</span>
-                                    <p>
-                                        I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                                    <span className="card-title">Service Platform</span>
+                                    <p className="left-align">
+                                        I developed a web application platform whose primary aim is to connect customers, seeking services, with highly qualified 
+                                        service providers available within their local area for NataftaPro.The web application boosted technology like smart location
+                                        search, payment via Mpesa and PesaPal, emailing service, and Digital Ocean S3 bucket storage.
                                     </p>
                                 </div>
                                 <div className="card-action">
-                                    <a href="#">This is a link</a>
+                                    <div className="row align-center">
+                                       <span className="col s2">
+                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used Angular.">
+                                             <FontAwesomeIcon icon={faAngular}  className="tecIcons" color="black"/>
+                                           </a>
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
+                                                <img src="/images/iconfinder_ruby-on-rails_3069735.svg" alt="" className="externalIcons"/>
+                                            </a>         
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                                <FontAwesomeIcon icon={faDigitalOcean} color="blue"  className="tecIcons"/>
+                                            </a>                
+                                        </span>
+                                    </div>        
                                 </div>
                             </div>
                         </div>
