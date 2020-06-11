@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./Portfolio.component.css";
 import { faHome, faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngular, faNodeJs, faPaypal,faDigitalOcean } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faNodeJs, faReact, faPaypal,faDigitalOcean } from '@fortawesome/free-brands-svg-icons'
 
 let M = require("materialize-css");
 
@@ -23,13 +23,57 @@ class Portfolio extends Component{
 
                 <div className="container">
                     <div className="row">
+                        {/* Vitumob */}
+                        <div className="col s12 m6">
+                            <div className="card">
+                                <div className="card-image">
+                                    <img src="/images/vitumob/vitumob.png" className="materialboxed"/>
+                                    <a href="https://ship.vitumob.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
+                                        <i className="material-icons">web</i>
+                                    </a>
+                                </div>
+                                <div className="card-content">
+                                    <span className="card-title">Vitumob</span>
+                                    <p className="left-align">
+                                      A web-based supply chain application based on Vitumob Company Limited current logistics.
+                                      The majority of my work was the backend and a little bit of frontend.
+                                      The majority of my work was the backend and a little bit of frontend. The web application has Mpesa payment, Paypal payment, 
+                                      invoicing, state machine to handle the different states of the shipping items, demurrage, and real-time currency exchange.
+                                    </p>
+                                </div>
+                                <div className="card-action">
+                                    <div className="row align-center">
+                                       <span className="col s2">
+                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
+                                             <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
+                                           </a>
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
+                                                <FontAwesomeIcon icon={faReact} color="blue" className="tecIcons"/>  
+                                            </a>                
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Integrated with PayPal">
+                                                <FontAwesomeIcon icon={faPaypal} color="blue" className="tecIcons"/>  
+                                            </a>                
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                                <FontAwesomeIcon icon={faDigitalOcean} color="blue" className="tecIcons"/>  
+                                            </a>                
+                                        </span>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
 
                         {/* Taftapro */}
                         <div className="col s12 m6">
                             <div className="card">
                                 <div className="card-image">
                                     <img src="/images/taftapro/landingPage2.png" className="materialboxed"/>
-                                    <a className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
+                                    <a href="" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
                                         <i className="material-icons">web</i>
                                     </a>
                                 </div>
