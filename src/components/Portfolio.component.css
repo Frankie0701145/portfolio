@@ -13,11 +13,6 @@
     height: 30px;
 }
 
-#portfolioWrapper{
-    font-weight: 320;
-    letter-spacing: 0.06em;
-}
-
 .card-image {
     border-bottom: 1px rgba(0,0,0,0.2) solid;
 }

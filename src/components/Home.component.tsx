@@ -16,7 +16,7 @@ class Home extends Component {
                 <div id="homeWrapper"  className="row">
 
                     {/* Side Nav */}
-                    <div className="col s12 m12 l2" id="sideNav">
+                    <div className="col s12 m12 l3" id="sideNav">
 
                         {/* Profile */}
                         <div className="section center-align">
@@ -47,28 +47,28 @@ class Home extends Component {
 
                         
                         <div className="section">
-                        <div className="divider"></div>
-                        <div className="row">
-                            <div className="col s12">
-                                    <div className="col s7 m7 l12">
-                                        <a href="#" className="iconsLinks">
-                                             <LinkedinFilled className="icons"/>
-                                        </a>
-                                        <a href="#" className="iconsLinks">
-                                            <GithubFilled className="icons"/>
-                                        </a>
+                            <div className="divider"></div>
+                                <div className="row">
+                                    <div className="col s12 stickerWrapper">
+                                            <div className="col s7 m7 l12">
+                                                <a href="#" className="iconsLinks">
+                                                    <LinkedinFilled className="icons"/>
+                                                </a>
+                                                <a href="#" className="iconsLinks">
+                                                    <GithubFilled className="icons"/>
+                                                </a>
+                                            </div>
+                                            <div className="col s2 offset-s3 offset-m right-align hide-on-large-only">
+                                                <MenuUnfoldOutlined className="icons"/>
+                                            </div>
                                     </div>
-                                    <div className="col s2 offset-s3 offset-m right-align hide-on-large-only">
-                                           <MenuUnfoldOutlined className="icons"/>
-                                    </div>
-                            </div>
-                        </div>
+                                </div>
                         </div>
 
                     </div>
 
                     {/* Main Nav */}
-                    <div className="col s12 m12 l10" id="mainNav">
+                    <div className="col s12 m12 l9" id="mainNav">
                         
                             <Switch>
                                 <Route exact path="/">

@@ -23,7 +23,46 @@ class Portfolio extends Component{
 
                 <div className="container">
                     <div className="row">
-
+                        
+                        {/* Taftapro */}
+                        <div className="col s12 m12">
+                            <h6 className="title">Service Platform</h6>
+                            <div className="card">
+                                <div className="card-image" id="cardImg">
+                                    <img src="/images/taftapro/landingPage2.png" className="materialboxed"/>
+                                    <a href="" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
+                                        <i className="material-icons">web</i>
+                                    </a>
+                                </div>
+                                <div className="card-content">
+                                    
+                                    <p className="left-align">
+                                        I developed a web application platform whose primary aim is to connect customers, seeking services, with highly qualified 
+                                        service providers available within their local area for NataftaPro.The web application boosted technology like smart location
+                                        search, payment via Mpesa and PesaPal, emailing service, and Digital Ocean S3 bucket storage.
+                                    </p>
+                                </div>
+                                <div className="card-action">
+                                    <div className="row">
+                                       <span className="col s2">
+                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used Angular.">
+                                             <FontAwesomeIcon icon={faAngular}  className="tecIcons" color="black"/>
+                                           </a>
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
+                                                <img src="/images/iconfinder_ruby-on-rails_3069735.svg" alt="" className="externalIcons"/>
+                                            </a>         
+                                        </span>
+                                        <span className="col s2">
+                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                                <FontAwesomeIcon icon={faDigitalOcean} color="blue"  className="tecIcons"/>
+                                            </a>                
+                                        </span>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
                         
                         {/* ACAL */}
                         <div className="col s12 m12">
@@ -41,7 +80,7 @@ class Portfolio extends Component{
                                     </p>
                                 </div>
                                 <div className="card-action">
-                                    <div className="row info">
+                                    <div className="row">
                                        <span className="col s2">
                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
                                              <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
@@ -86,7 +125,7 @@ class Portfolio extends Component{
                                     </p>
                                 </div>
                                 <div className="card-action">
-                                    <div className="row info">
+                                    <div className="row">
                                        <span className="col s2">
                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
                                              <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
@@ -105,46 +144,6 @@ class Portfolio extends Component{
                                         <span className="col s2">
                                             <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
                                                 <FontAwesomeIcon icon={faDigitalOcean} color="blue" className="tecIcons"/>  
-                                            </a>                
-                                        </span>
-                                    </div>        
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Taftapro */}
-                        <div className="col s12 m12">
-                            <h6 className="title">Service Platform</h6>
-                            <div className="card">
-                                <div className="card-image" id="cardImg">
-                                    <img src="/images/taftapro/landingPage2.png" className="materialboxed"/>
-                                    <a href="" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
-                                        <i className="material-icons">web</i>
-                                    </a>
-                                </div>
-                                <div className="card-content">
-                                    
-                                    <p className="left-align">
-                                        I developed a web application platform whose primary aim is to connect customers, seeking services, with highly qualified 
-                                        service providers available within their local area for NataftaPro.The web application boosted technology like smart location
-                                        search, payment via Mpesa and PesaPal, emailing service, and Digital Ocean S3 bucket storage.
-                                    </p>
-                                </div>
-                                <div className="card-action">
-                                    <div className="row">
-                                       <span className="col s2">
-                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used Angular.">
-                                             <FontAwesomeIcon icon={faAngular}  className="tecIcons" color="black"/>
-                                           </a>
-                                        </span>
-                                        <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
-                                                <img src="/images/iconfinder_ruby-on-rails_3069735.svg" alt="" className="externalIcons"/>
-                                            </a>         
-                                        </span>
-                                        <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
-                                                <FontAwesomeIcon icon={faDigitalOcean} color="blue"  className="tecIcons"/>
                                             </a>                
                                         </span>
                                     </div>        
@@ -171,7 +170,7 @@ class Portfolio extends Component{
                                         </p>
                                     </div>
                                     <div className="card-action">
-                                        <div className="row info">
+                                        <div className="row">
                                             <span className="col s3 m2">
                                                 <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
                                                     <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
