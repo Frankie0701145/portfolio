@@ -4,7 +4,6 @@ import "./Home.component.css";
 import "../../node_modules/materialize-social/materialize-social.css";
 import Portfolio from './Portfolio.component';
 import Skills from './Skills.component';
-import AboutMe from './AboutMe.component';
 import {LinkedinFilled, GithubFilled, MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -44,11 +43,6 @@ class Home extends Component {
                                     <div className="col s12 navLinks">Skills </div>
                                 </NavLink>
                             </div>
-                            <div className="row">
-                                <NavLink to="/aboutMe" className="col s12 links">
-                                    <div className="col s12 navLinks "> About Me</div>
-                                </NavLink>                 
-                            </div>
                         </div>
 
                         
@@ -82,7 +76,6 @@ class Home extends Component {
                                 </Route>
                                 <Route exact path="/portfolio" component={Portfolio}></Route>
                                 <Route exact path="/skills" component={Skills}></Route>
-                                <Route exact path="/aboutMe" component={AboutMe}></Route>
                             </Switch>
                     
                     </div>
