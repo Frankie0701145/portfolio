@@ -17,7 +17,7 @@ class Home extends Component {
                 <div id="homeWrapper"  className="row">
 
                     {/* Side Nav */}
-                    <div className="col s12 m12 l2 red accent-4" id="sideNav">
+                    <div className="col s12 m12 l2" id="sideNav">
 
                         {/* Profile */}
                         <div className="section center-align">
@@ -32,7 +32,7 @@ class Home extends Component {
                         </div>
                         
                         <div className="section hide-on-med-and-down">
-                            <div className="divider black"></div>
+                            <div className="divider"></div>
                             <div className="row">
                                 <NavLink to="/portfolio" className="col s12 links"> 
                                     <div className="col s12 navLinks">Portfolio</div>
