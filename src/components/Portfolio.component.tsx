@@ -165,7 +165,7 @@ class Portfolio extends Component{
                                     </a>
                                 </div>
                                 <div className="card-stacked">
-                                    <div className="card-content red center-al  ">
+                                    <div className="card-content valign-wrapper  ">
                                         <p className="left-align">
                                             A mobile app that enables teens to connect with counsellors for real time face-to-face support.
                                             The mobile application has the following features:  video calling, live chatting, assignment uploads and 
