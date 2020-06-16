@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import "./Portfolio.component.css";
-import { faHome, faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngular, faNodeJs, faReact, faPaypal,faDigitalOcean, faStripe } from '@fortawesome/free-brands-svg-icons'
 
@@ -29,8 +28,8 @@ class Portfolio extends Component{
                             <h6 className="title">Service Platform</h6>
                             <div className="card">
                                 <div className="card-image" id="cardImg">
-                                    <img src="/images/taftapro/landingPage2.png" className="materialboxed"/>
-                                    <a href="" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
+                                    <img  alt="" src="/images/taftapro/landingPage2.png" className="materialboxed" />
+                                    <a href="#" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
                                         <i className="material-icons">web</i>
                                     </a>
                                 </div>
@@ -51,7 +50,7 @@ class Portfolio extends Component{
                                         </span>
                                         <span className="col s2">
                                             <a className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
-                                                <img src="/images/iconfinder_ruby-on-rails_3069735.svg" alt="" className="externalIcons"/>
+                                                <img alt="" src="/images/iconfinder_ruby-on-rails_3069735.svg" className="externalIcons"/>
                                             </a>         
                                         </span>
                                         <span className="col s2">
@@ -69,7 +68,7 @@ class Portfolio extends Component{
                             <h6 className="title">Arijnaw Consulting Agency LLC</h6>
                             <div className="card">
                                 <div className="card-image" id="cardImgWrapper">
-                                    <img src="/images/acal/acal.png" className="materialboxed"/>
+                                    <img alt="" src="/images/acal/acal.png" className="materialboxed"/>
                                     <a href="https://talent.arijnawcal.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">web</i>
                                     </a>
@@ -113,8 +112,8 @@ class Portfolio extends Component{
                             <h6 className="title">Vitumob</h6>
                             <div className="card">
                                 <div className="card-image" id="cardImg">
-                                    <img src="/images/vitumob/vitumob.png" className="materialboxed" height="300"/>
-                                    <a href="https://ship.vitumob.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
+                                    <img alt="" src="/images/vitumob/vitumob.png" className="materialboxed" height="300"/>
+                                    <a href="https://ship.vitumob.com/" rel="noopener noreferrer" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">web</i>
                                     </a>
                                 </div>
@@ -159,7 +158,7 @@ class Portfolio extends Component{
                             <h6 className="title">Gappmind</h6>
                             <div className="card horizontal cardHorizontal">
                                 <div className="card-image cardImgHorizontal">
-                                    <img src="/images/gappmind/unnamed.png" className="materialboxed"/>
+                                    <img alt="" src="/images/gappmind/unnamed.png" className="materialboxed"/>
                                     <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.gappmind&hl=en" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">phone_iphone</i>
                                     </a>
@@ -203,18 +202,14 @@ class Portfolio extends Component{
 
     componentDidMount(){
         let elems = document.querySelectorAll('.carousel');
-        let instance = M.Carousel.init(elems, {
+        M.Carousel.init(elems, {
             fullWidth: true,
             indicator: true
         });
         let elemsBoxes = document.querySelectorAll('.materialboxed');
         let elemsToolTip = document.querySelectorAll('.tooltipped');
-        let instancesBoxes = M.Materialbox.init(elemsBoxes,{
-            onOpenStart: (item: any)=>{
-                console.log("Opening");
-            }
-        });
-        let toolTipInstance = M.Tooltip.init(elemsToolTip, {});
+        M.Materialbox.init(elemsBoxes,{ });
+        M.Tooltip.init(elemsToolTip, {});
     }
 }
 

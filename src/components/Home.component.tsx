@@ -4,7 +4,7 @@ import "./Home.component.css";
 import "../../node_modules/materialize-social/materialize-social.css";
 import Portfolio from './Portfolio.component';
 import Skills from './Skills.component';
-import {LinkedinFilled, GithubFilled, MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons';
+import {LinkedinFilled, GithubFilled, MenuUnfoldOutlined} from '@ant-design/icons';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 
