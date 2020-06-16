@@ -1,0 +1,50 @@
+
+.title {
+    color:red;
+}
+
+
+ul {
+    max-height: 80%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+ul li::before {
+    content: '✓';
+    color: blue;
+}
+
+.card-content {
+    height: 70%;
+}
+
+li {
+    margin: 5px;
+}
+
+.imgRound {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    left: 45%;
+    bottom: 15px;
+}
+
+
+.skillsWrapper div {
+    margin-top: 15px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    #last-child {
+        position: relative;
+        right: 6%;
+    }
+}
