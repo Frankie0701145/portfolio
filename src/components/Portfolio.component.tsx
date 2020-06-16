@@ -37,7 +37,7 @@ class Portfolio extends Component{
                                 <div className="card-content">
                                     
                                     <p className="left-align">
-                                        I developed a web application platform whose primary aim is to connect customers, seeking services, with highly qualified 
+                                        I developed a web application platform whose primary aim is to connect customers seeking services, with highly qualified 
                                         service providers available within their local area for NataftaPro.The web application boosted technology like smart location
                                         search, payment via Mpesa and PesaPal, emailing service, and Digital Ocean S3 bucket storage.
                                     </p>
@@ -76,7 +76,9 @@ class Portfolio extends Component{
                                 </div>
                                 <div className="card-content">
                                     <p className="left-align">
-                                      A web and mobile application and confirms to arijnawcal Consulate
+                                      Is a Integrated Business Administration Platform that conforms to the Arijnaw Consulting Agency LLC business.  Arijnaw Consulting Agency LLC is is a brokerage firm 
+                                      focused on connecting TALENT (INVENTORS) with CLIENTS (INVESTORS). The platform is also mobile based. The platform boost of technologies like subscription, card payments, and
+                                      video and pdf upload. I featured on the development team and my main work was developing the backend. I also helped develop the front-end.
                                     </p>
                                 </div>
                                 <div className="card-action">
@@ -122,6 +124,7 @@ class Portfolio extends Component{
                                       The web application has Mpesa payment, Paypal payment, invoicing, state machine to handle the 
                                       different states of the shipping items, demurrage, and real-time currency conversion. The application 
                                       is both based on <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.vitumob&hl=en" target="_blank">mobile</a> and web application.
+                                      I featured on the development team and my main work was developing the backend. I also helped develop the front-end.
                                     </p>
                                 </div>
                                 <div className="card-action">
@@ -162,11 +165,11 @@ class Portfolio extends Component{
                                     </a>
                                 </div>
                                 <div className="card-stacked">
-                                    <div className="card-content">
+                                    <div className="card-content red center-al  ">
                                         <p className="left-align">
                                             A mobile app that enables teens to connect with counsellors for real time face-to-face support.
                                             The mobile application has the following features:  video calling, live chatting, assignment uploads and 
-                                            counsellor scheduling.
+                                            counsellor scheduling. I featured on the development team and my main work was developing the backend. I also helped with developing the mobile application.
                                         </p>
                                     </div>
                                     <div className="card-action">
