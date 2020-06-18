@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import "./Portfolio.component.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngular, faNodeJs, faReact, faPaypal,faDigitalOcean, faStripe } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faNodeJs, faReact, faPaypal,faDigitalOcean, faStripe } from '@fortawesome/free-brands-svg-icons';
+import landingPage2 from "../images/taftapro/landingPage2.png";
+import acal from "../images/acal/acal.png";
+import vitumob from "../images/vitumob/vitumob.png";
+import gappmind from "../images/gappmind/gappmind.png";
 
 let M = require("materialize-css");
 
@@ -28,7 +32,7 @@ class Portfolio extends Component{
                             <h6 className="title">Service Platform</h6>
                             <div className="card">
                                 <div className="card-image" id="cardImg">
-                                    <img  alt="" src="/images/taftapro/landingPage2.png" className="materialboxed" />
+                                    <img  alt="" src={landingPage2} className="materialboxed" />
                                     <a href="#" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
                                         <i className="material-icons">web</i>
                                     </a>
@@ -68,7 +72,7 @@ class Portfolio extends Component{
                             <h6 className="title">Arijnaw Consulting Agency LLC</h6>
                             <div className="card">
                                 <div className="card-image" id="cardImgWrapper">
-                                    <img alt="" src="/images/acal/acal.png" className="materialboxed"/>
+                                    <img alt="" src={acal} className="materialboxed"/>
                                     <a href="https://talent.arijnawcal.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">web</i>
                                     </a>
@@ -112,7 +116,7 @@ class Portfolio extends Component{
                             <h6 className="title">Vitumob</h6>
                             <div className="card">
                                 <div className="card-image" id="cardImg">
-                                    <img alt="" src="/images/vitumob/vitumob.png" className="materialboxed" height="300"/>
+                                    <img alt="" src={vitumob} className="materialboxed" height="300"/>
                                     <a href="https://ship.vitumob.com/" rel="noopener noreferrer" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">web</i>
                                     </a>
@@ -158,7 +162,7 @@ class Portfolio extends Component{
                             <h6 className="title">Gappmind</h6>
                             <div className="card horizontal cardHorizontal">
                                 <div className="card-image cardImgHorizontal">
-                                    <img alt="" src="/images/gappmind/unnamed.png" className="materialboxed"/>
+                                    <img alt="" src={gappmind } className="materialboxed"/>
                                     <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.gappmind&hl=en" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">phone_iphone</i>
                                     </a>

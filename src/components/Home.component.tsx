@@ -5,7 +5,8 @@ import "../../node_modules/materialize-social/materialize-social.css";
 import Portfolio from './Portfolio.component';
 import Skills from './Skills.component';
 import {LinkedinFilled, GithubFilled, MenuUnfoldOutlined} from '@ant-design/icons';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import profile from "../images/profile.jpg";
 
 
 class Home extends Component {
@@ -20,7 +21,7 @@ class Home extends Component {
 
                         {/* Profile */}
                         <div className="section center-align">
-                            <img src="images/profile.jpg" id="profilePic" alt="Francis"  className="circle responsive-img"></img>
+                            <img src={profile} id="profilePic" alt="Francis"  className="circle responsive-img"></img>
                             <h5 id="name">Francis Njuguna</h5>
                             <blockquote className="left-align hide-on-med-and-down">
                                 Hi, my name is Francis Njuguna and I'm a full stack Software Developer. Welcome to my website!
