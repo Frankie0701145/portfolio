@@ -34,13 +34,13 @@ class Home extends Component {
                         <div className="section hide-on-med-and-down">
                             <div className="divider"></div>
                             <div className="row">
-                                <NavLink to="/works" className="col s12 links"> 
+                                <NavLink to="/Portfolio" className="col s12 links"> 
                                     <div className="col s12 navLinks">Portfolio</div>
                                 </NavLink>
                             </div>
 
                             <div className="row">
-                                <NavLink to="/skills" className="col s12 links">
+                                <NavLink to="/Skills" className="col s12 links">
                                     <div className="col s12 navLinks">Skills </div>
                                 </NavLink>
                             </div>
@@ -73,10 +73,10 @@ class Home extends Component {
                         
                             <Switch>
                                 <Route exact path="/">
-                                      <Redirect to="/works" />
+                                      <Redirect to="/Portfolio" />
                                 </Route>
-                                <Route exact path="/works" component={Portfolio}></Route>
-                                <Route exact path="/skills" component={Skills}></Route>
+                                <Route exact path="/Portfolio" component={Portfolio}></Route>
+                                <Route exact path="/Skills" component={Skills}></Route>
                             </Switch>
                     
                     </div>
