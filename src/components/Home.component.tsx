@@ -34,7 +34,7 @@ class Home extends Component {
                         <div className="section hide-on-med-and-down">
                             <div className="divider"></div>
                             <div className="row">
-                                <NavLink to="/portfolio" className="col s12 links"> 
+                                <NavLink to="/works" className="col s12 links"> 
                                     <div className="col s12 navLinks">Portfolio</div>
                                 </NavLink>
                             </div>
@@ -52,11 +52,11 @@ class Home extends Component {
                                 <div className="row">
                                     <div className="col s12 stickerWrapper">
                                             <div className="col s7 m7 l12">
-                                                <a href="#" className="iconsLinks">
-                                                    <LinkedinFilled className="icons"/>
+                                                <a href="https://github.com/Frankie0701145"  target="_blank" rel="noopener noreferrer" className="iconsLinks">
+                                                    <GithubFilled className="icons"/>
                                                 </a>
                                                 <a href="#" className="iconsLinks">
-                                                    <GithubFilled className="icons"/>
+                                                    <LinkedinFilled className="icons"/>
                                                 </a>
                                             </div>
                                             <div className="col s2 offset-s3 offset-m right-align hide-on-large-only">
@@ -73,9 +73,9 @@ class Home extends Component {
                         
                             <Switch>
                                 <Route exact path="/">
-                                      <Redirect to="/portfolio" />
+                                      <Redirect to="/works" />
                                 </Route>
-                                <Route exact path="/portfolio" component={Portfolio}></Route>
+                                <Route exact path="/works" component={Portfolio}></Route>
                                 <Route exact path="/skills" component={Skills}></Route>
                             </Switch>
                     

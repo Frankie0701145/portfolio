@@ -11,6 +11,13 @@ import railsIcon from "../images/iconfinder_ruby-on-rails_3069735.svg";
 let M = require("materialize-css");
 
 class Portfolio extends Component{
+    angularHomePage = "https://angular.io/";
+    railsHomePage = "https://rubyonrails.org/";
+    stripeHomePage = "https://stripe.com/";
+    nodeHomePage = "https://nodejs.org/en/";
+    reactHomePage = "https://reactjs.org/";
+    paypalHomePage= "https://www.paypal.com/";
+    digitalOceanHomePage = "https://www.digitalocean.com/";
     render(){
         return(
 
@@ -49,17 +56,17 @@ class Portfolio extends Component{
                                 <div className="card-action">
                                     <div className="row">
                                        <span className="col s2">
-                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used Angular.">
+                                           <a href={this.angularHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used Angular.">
                                              <FontAwesomeIcon icon={faAngular}  className="tecIcons" color="black"/>
                                            </a>
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
+                                            <a href={this.railsHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
                                                 <img alt="" src={railsIcon} className="externalIcons"/>
                                             </a>         
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                            <a href={this.digitalOceanHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
                                                 <FontAwesomeIcon icon={faDigitalOcean} color="blue"  className="tecIcons"/>
                                             </a>                
                                         </span>
@@ -74,7 +81,7 @@ class Portfolio extends Component{
                             <div className="card">
                                 <div className="card-image" id="cardImgWrapper">
                                     <img alt="" src={acal} className="materialboxed"/>
-                                    <a href="https://talent.arijnawcal.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
+                                    <a href="https://talent.arijnawcal.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" rel="noopener noreferrer" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">web</i>
                                     </a>
                                 </div>
@@ -88,22 +95,22 @@ class Portfolio extends Component{
                                 <div className="card-action">
                                     <div className="row">
                                        <span className="col s2">
-                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
+                                           <a href={this.nodeHomePage} className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
                                              <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
                                            </a>
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
+                                            <a href={this.reactHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
                                                 <FontAwesomeIcon icon={faReact} color="blue" className="tecIcons"/>  
                                             </a>                
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Integrated with PayPal">
+                                            <a href={this.stripeHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Integrated with PayPal">
                                                 <FontAwesomeIcon icon={faStripe} color="blue" className="tecIcons"/>  
                                             </a>                
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                            <a href={this.digitalOceanHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
                                                 <FontAwesomeIcon icon={faDigitalOcean} color="blue" className="tecIcons"/>  
                                             </a>                
                                         </span>
@@ -127,29 +134,29 @@ class Portfolio extends Component{
                                       A web-based supply chain application based on Vitumob Company Limited current logistics.
                                       The web application has Mpesa payment, Paypal payment, invoicing, state machine to handle the 
                                       different states of the shipping items, demurrage, and real-time currency conversion. The application 
-                                      is both based on <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.vitumob&hl=en" target="_blank">mobile</a> and web application.
+                                      is both based on <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.vitumob&hl=en" target="_blank" rel="noopener noreferrer" >mobile</a> and web application.
                                       I featured on the development team and my main work was developing the backend. I also helped develop the front-end.
                                     </p>
                                 </div>
                                 <div className="card-action">
                                     <div className="row">
                                        <span className="col s2">
-                                           <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
+                                           <a href={this.nodeHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
                                              <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
                                            </a>
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
+                                            <a href={this.reactHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
                                                 <FontAwesomeIcon icon={faReact} color="blue" className="tecIcons"/>  
                                             </a>                
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Integrated with PayPal">
+                                            <a href={this.paypalHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Integrated with PayPal">
                                                 <FontAwesomeIcon icon={faPaypal} color="blue" className="tecIcons"/>  
                                             </a>                
                                         </span>
                                         <span className="col s2">
-                                            <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                            <a href={this.digitalOceanHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
                                                 <FontAwesomeIcon icon={faDigitalOcean} color="blue" className="tecIcons"/>  
                                             </a>                
                                         </span>
@@ -164,7 +171,7 @@ class Portfolio extends Component{
                             <div className="card horizontal cardHorizontal">
                                 <div className="card-image cardImgHorizontal">
                                     <img alt="" src={gappmind } className="materialboxed"/>
-                                    <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.gappmind&hl=en" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" target="_blank" data-position="bottom" data-tooltip="View Site.">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.touchinspiration.gappmind&hl=en" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site.">
                                         <i className="material-icons">phone_iphone</i>
                                     </a>
                                 </div>
@@ -179,17 +186,17 @@ class Portfolio extends Component{
                                     <div className="card-action">
                                         <div className="row">
                                             <span className="col s3 m2">
-                                                <a className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
+                                                <a href={this.nodeHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used NodeJs.">
                                                     <FontAwesomeIcon icon={faNodeJs} color="green"  className="tecIcons"/>
                                                 </a>
                                             </span>
                                             <span className="col s3 m2">
-                                                <a className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
+                                                <a href={this.reactHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Used ReactJs.">
                                                     <FontAwesomeIcon icon={faReact} color="blue" className="tecIcons"/>  
                                                 </a>                
                                             </span>
                                             <span className="col s3 m2">
-                                                <a className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
+                                                <a href={this.digitalOceanHomePage} target="_blank" rel="noopener noreferrer" className="tooltipped" data-position="bottom" data-tooltip="Deployed to Digital Ocean.">
                                                     <FontAwesomeIcon icon={faDigitalOcean} color="blue" className="tecIcons"/>  
                                                 </a>                
                                             </span>
