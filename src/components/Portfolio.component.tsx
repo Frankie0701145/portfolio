@@ -6,6 +6,7 @@ import landingPage2 from "../images/taftapro/landingPage2.png";
 import acal from "../images/acal/acal.png";
 import vitumob from "../images/vitumob/vitumob.png";
 import gappmind from "../images/gappmind/gappmind.png";
+import railsIcon from "../images/iconfinder_ruby-on-rails_3069735.svg";
 
 let M = require("materialize-css");
 
@@ -54,7 +55,7 @@ class Portfolio extends Component{
                                         </span>
                                         <span className="col s2">
                                             <a className="tooltipped" data-position="bottom" data-tooltip="Used Rails.">
-                                                <img alt="" src="/images/iconfinder_ruby-on-rails_3069735.svg" className="externalIcons"/>
+                                                <img alt="" src={railsIcon} className="externalIcons"/>
                                             </a>         
                                         </span>
                                         <span className="col s2">
