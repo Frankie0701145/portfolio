@@ -82,7 +82,7 @@ class Home extends Component {
                 </div>
 
                 {/* slide out side nav */}
-                <ul id="slide-out" className="sidenav">
+                <ul id="slide-out" className="sidenav hide-on-large-only">
                     <li>
                         <div className="user-view">
                             <div className="background-cyborg">
