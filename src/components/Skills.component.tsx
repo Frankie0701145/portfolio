@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import "./Skills.component.css";
+import {CodeFilled, CloudServerOutlined} from '@ant-design/icons'
 
 class Skills extends Component{
     render(){
@@ -33,10 +34,10 @@ class Skills extends Component{
                             <div className="col s12 m6">
                                 <div className="card small">
                                     {/* A round picture */}
-                                    <i className="material-icons imgRound align-center">web</i>
-                                    <div className="card-content blue">
+                                    <i className="material-icons imgRound align-center indigo darken-4">web</i>
+                                    <div className="card-content indigo">
                                         <h6 className="card-title center-align">Frontend</h6>
-                                        <ul>
+                                        <ul className="ulWrapper">
                                             <li>React/Redux</li>
                                             <li>Angular/NgRx</li>
                                             <li>HTML/CSS/SASS/LESS</li>
@@ -50,10 +51,10 @@ class Skills extends Component{
                             <div className="col s12 m6">
                                 <div className="card small">
                                     {/* A round picture */}
-                                    <i className="material-icons imgRound align-center">web</i>
-                                     <div className="card-content blue">
+                                    <i className="material-icons imgRound align-center indigo darken-4">storage</i>
+                                     <div className="card-content indigo">
                                         <h6 className="card-title center-align">Backend</h6>
-                                        <ul>
+                                        <ul className="ulWrapper">
                                             <li>Node</li>
                                             <li>Ruby/Rails</li>
                                             <li>MongoDb/PostgreSQL</li>
@@ -67,10 +68,11 @@ class Skills extends Component{
                             <div className="col s12 m6">
                                 <div className="card small">
                                     {/* A round picture */}
-                                    <i className="material-icons imgRound align-center">web</i>
-                                    <div className="card-content blue">
+                                    {/* <i className="material-icons imgRound align-center">cloud</i> */}
+                                    <CloudServerOutlined className="material-icons imgRound align-center indigo darken-4"/>
+                                    <div className="card-content indigo">
                                         <h6 className="card-title center-align">Devops</h6>
-                                        <ul>
+                                        <ul className="ulWrapper">
                                             <li>Continuous Integration</li>
                                             <li>Continuous Development</li>
                                             <li>Nginix</li>
@@ -84,10 +86,10 @@ class Skills extends Component{
                             <div className="col s12 m6">
                                 <div className="card small">
                                     {/* A round picture */}
-                                    <i className="material-icons imgRound align-center">web</i>
-                                    <div className="card-content blue">
+                                    <i className="material-icons imgRound align-center indigo darken-4">more_vert</i>
+                                    <div className="card-content indigo">
                                         <h6 className="card-title center-align">Others</h6>
-                                        <ul>
+                                        <ul className="ulWrapper">
                                             <li>UI/UX</li>
                                             <li>React Native</li>
                                         </ul>
@@ -98,11 +100,10 @@ class Skills extends Component{
                                                         {/* Languages */}
                             <div className="col s12 m7 offset-m3" id="last-child">
                                 <div className="card small">
-                                    {/* A round picture */}
-                                    <i className="material-icons imgRound align-center">web</i>
-                                    <div className="card-content blue">
+                                    <CodeFilled className="material-icons imgRound align-center indigo darken-4"/>
+                                    <div className="card-content indigo">
                                         <h6 className="card-title center-align">Programming</h6>
-                                        <ul>
+                                        <ul className="ulWrapper">
                                             <li>JavaScript/NodeJs/TypeScript</li>
                                             <li>Ruby</li>
                                             <li>Python</li>

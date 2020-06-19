@@ -12,11 +12,17 @@
     color: white;
     font-weight: 120;
     background-color: rgba(178,34,34);
-    background-image: url("../images/beach.jpg");
+    background-image: url("../images/beach3.jpg");
     background-color: rgba(178,34,34);
     background-size: cover;
     background-blend-mode: multiply;
+
 }
+
+.sideNav { 
+    height: 100%
+}
+
 
 #profilePic{
     max-width: 150px;
@@ -26,8 +32,10 @@
     padding: 7px;  
 }
 
-.info {
-    border: 1px solid white;
+#slide-out {
+    background-color:white;
+    height: 130vh;
+    color: black;
 }
 
 .links {
@@ -73,6 +81,12 @@
 
 #mainNav {
     background-color: rgb(240,242,245);
+}
+
+.fabBtn {
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
 }
 
 @media only screen and (min-width: 992px){

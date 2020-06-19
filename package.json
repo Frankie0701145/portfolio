@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Frankie0701145.github.io/Portfolio",
+  "homepage": "http://Frankie0701145.github.io/portfolio",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
