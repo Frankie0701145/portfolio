@@ -88,7 +88,7 @@ class Portfolio extends Component{
                                 <div className="card-content">
                                     <p className="left-align">
                                       Is a Integrated Business Administration Platform that conforms to the Arijnaw Consulting Agency LLC business.  Arijnaw Consulting Agency LLC is is a brokerage firm 
-                                      focused on connecting TALENT (INVENTORS) with CLIENTS (INVESTORS). The platform is also mobile based. The platform boost of technologies like subscription, card payments, and
+                                      focused on connecting TALENT (INVENTORS) with CLIENTS (INVESTORS). The platform is mobile based, boost of technologies like subscription, card payments, and
                                       video and pdf upload. I featured on the development team and my main work was developing the backend. I also helped develop the front-end.
                                     </p>
                                 </div>

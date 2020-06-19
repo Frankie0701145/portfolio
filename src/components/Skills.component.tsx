@@ -102,7 +102,7 @@ class Skills extends Component{
                                 <div className="card small">
                                     <CodeFilled className="material-icons imgRound align-center indigo darken-4"/>
                                     <div className="card-content indigo">
-                                        <h6 className="card-title center-align">Programming</h6>
+                                        <h6 className="card-title center-align">Language</h6>
                                         <ul className="ulWrapper">
                                             <li>JavaScript/NodeJs/TypeScript</li>
                                             <li>Ruby</li>
