@@ -87,9 +87,10 @@ class Portfolio extends Component{
                                 </div>
                                 <div className="card-content">
                                     <p className="left-align">
-                                      Is a Integrated Business Administration Platform that conforms to the Arijnaw Consulting Agency LLC business.  Arijnaw Consulting Agency LLC is is a brokerage firm 
-                                      focused on connecting TALENT (INVENTORS) with CLIENTS (INVESTORS). The platform is mobile based, boost of technologies like subscription, card payments, and
-                                      video and pdf upload. I featured on the development team and my main work was developing the backend. I also helped develop the front-end.
+                                    It is an Integrated Business Administration Platform that conforms to the Arijnaw Consulting Agency LLC business.
+                                    Arijnaw Consulting Agency LLC is is a brokerage firm focused on connecting TALENT (INVENTORS) with CLIENTS (INVESTORS). 
+                                    The platform is mobile-based, boosts of technologies like subscription, card payments, and video and pdf upload. 
+                                    I featured on the development team, and my main work was developing the backend. I also helped develop the front-end.
                                     </p>
                                 </div>
                                 <div className="card-action">
@@ -131,11 +132,10 @@ class Portfolio extends Component{
                                 </div>
                                 <div className="card-content">
                                     <p className="left-align">
-                                      A web-based supply chain application based on Vitumob Company Limited current logistics.
-                                      The web application has Mpesa payment, Paypal payment, invoicing, state machine to handle the 
-                                      different states of the shipping items, demurrage, and real-time currency conversion. The application 
-                                      is both based on <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.vitumob&hl=en" target="_blank" rel="noopener noreferrer" >mobile</a> and web application.
-                                      I featured on the development team and my main work was developing the backend. I also helped develop the front-end.
+                                        A web-based supply chain application based on Vitumob Company Limited's current logistics. The web application has the following features: Mpesa payment, Paypal payment, 
+                                        invoicing, state machine to handle the different states of the shipping items, demurrage, and real-time currency conversion. 
+                                        The application is based on <a href="https://play.google.com/store/apps/details?id=com.touchinspiration.vitumob&hl=en" target="_blank" rel="noopener noreferrer" >mobile</a> and web applications.
+                                        I featured on the development team, and my main work was developing the backend. I also helped develop the front-end.
                                     </p>
                                 </div>
                                 <div className="card-action">
@@ -178,9 +178,9 @@ class Portfolio extends Component{
                                 <div className="card-stacked">
                                     <div className="card-content valign-wrapper  ">
                                         <p className="left-align">
-                                            A mobile app that enables teens to connect with counsellors for real time face-to-face support.
-                                            The mobile application has the following features:  video calling, live chatting, assignment uploads and 
-                                            counsellor scheduling. I featured on the development team and my main work was developing the backend. I also helped with developing the mobile application.
+                                        A mobile app that enables teens to connect with counselors for real-time face-to-face support. 
+                                        The mobile application has the following features: video calling, live chatting, assignment uploads, and scheduling of counselors.
+                                        I featured on the development team, and my main work was developing the backend. I also helped with developing the mobile application.
                                         </p>
                                     </div>
                                     <div className="card-action">
