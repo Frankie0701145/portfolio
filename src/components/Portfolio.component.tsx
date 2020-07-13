@@ -41,7 +41,7 @@ class Portfolio extends Component{
                             <div className="card">
                                 <div className="card-image" id="cardImg">
                                     <img  alt="" src={landingPage2} className="materialboxed" />
-                                    <a href="https://taftapro.com/" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
+                                    <a href="https://taftapro.com/" target="_blank" rel="noopener noreferrer" className="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="View Site">
                                         <i className="material-icons">web</i>
                                     </a>
                                 </div>
